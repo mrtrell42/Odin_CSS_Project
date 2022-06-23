@@ -1,0 +1,245 @@
+/* reset */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+nav ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input,
+select {
+	vertical-align: middle;
+}
+
+/* end of reset */
+
+/* container */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	border: 2px solid red;
+}
+.container {
+	background-color: #1f2937;
+}
+/* End of container */
+
+/* nav */
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 150px;
+}
+ul {
+	display: flex;
+}
+ul li {
+	margin-left: 15px;
+}
+/* end of nav */
+
+/* sections*/
+section {
+	padding: 40px 150px;
+	border: 2px solid blue;
+}
+/* End of sections */
+
+/* header */
+.header_info {
+	display: flex;
+}
+
+.hero_logo {
+	color: #f9faf8;
+	font-size: 24px;
+}
+
+.header_description,
+.image_placeholder {
+	width: 50%;
+	border: 2px solid red;
+	display: flex;
+	justify-content: center;
+}
+.header_description {
+	flex-direction: column;
+}
+
+.hero_main_text {
+	font-size: 48px;
+	font-weight: bolder;
+	color: #f9faf8;
+}
+
+.hero_secondary_text {
+	font-size: 18px;
+}
+/* End of header */
+
+/* section_two */
+.section_two h3 {
+	text-align: center;
+}
+
+.info_cards {
+	display: flex;
+	justify-content: space-around;
+}
+
+.card {
+	width: 20%;
+	border: 2px solid yellow;
+}
+
+.card_image {
+	height: 150px;
+	width: 150px;
+	border: 2px solid red;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+.card_Text {
+	text-align: center;
+	width: 150px;
+	margin: 0 auto;
+}
+/* End of section two */
+
+/* section three */
+.section_three {
+	text-align: center;
+}
+
+.section_three p {
+	margin-right: -600px;
+}
+
+/* End of section three */
+
+/* section four */
+.section_four {
+	border: 2px solid red;
+	display: flex;
+	justify-content: space-between;
+}
