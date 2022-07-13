@@ -196,6 +196,13 @@ section {
 	/* border: 2px solid red; */
 	display: flex;
 	justify-content: center;
+	background-color: gray;
+	flex-direction: column;
+}
+#placeholder_text {
+	margin: 0 auto;
+	color: #ffffff;
+	align-items: center;
 }
 .header_description {
 	flex-direction: column;
@@ -274,14 +281,14 @@ section {
 
 /* section four */
 .section_four {
-	border: 2px solid red;
+	/* border: 2px solid red; */
 	display: flex;
 	justify-content: space-between;
 	background-color: #ffffff;
 }
 
 .action {
-	border: 2px solid red;
+	/* border: 2px solid red; */
 	color: #ffffff;
 	background-color: #3882f6;
 	padding: 20px;
@@ -292,7 +299,7 @@ section {
 }
 
 .action_text {
-	border: 2px solid red;
+	/* border: 2px solid red; */
 }
 
 .section_four button {
@@ -313,5 +320,7 @@ section {
 .footer_text {
 	text-align: center;
 	color: #ffffff;
+	background-color: #1f2937;
+	padding: 1.5rem;
 }
 /* end of footer */
